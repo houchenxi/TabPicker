@@ -14,38 +14,22 @@
             <nil key="simulatedBottomBarMetrics"/>
             <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-            <tabBar key="tabBar" contentMode="scaleToFill" selectedItem="4fN-ys-0QI" id="HaC-FE-qo8">
+            <tabBar key="tabBar" contentMode="scaleToFill" id="HaC-FE-qo8">
                 <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             </tabBar>
             <viewControllers>
-                <viewController id="dYw-aG-pRh">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="4YE-9c-fSt"/>
-                        <viewControllerLayoutGuide type="bottom" id="daQ-6m-vwt"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Sj1-P3-mrl">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="4fN-ys-0QI"/>
-                </viewController>
-                <viewController id="z70-oe-p2p">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="xEz-7H-GC8"/>
-                        <viewControllerLayoutGuide type="bottom" id="TZQ-6m-Hb1"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="FHD-cN-vWV">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="rdh-V6-inq"/>
-                </viewController>
                 <viewController automaticallyAdjustsScrollViewInsets="NO" id="zN2-Z8-zOr">
                     <tabBarItem key="tabBarItem" title="Item" id="NRO-g2-eLo"/>
+                    <toolbarItems/>
+                </viewController>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="ljB-1I-Hbp">
+                    <tabBarItem key="tabBarItem" title="Item" id="JbG-6K-fgI"/>
+                    <toolbarItems/>
+                </viewController>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="aL6-T4-yIT">
+                    <tabBarItem key="tabBarItem" title="Item" id="y6B-E7-S8C"/>
                     <toolbarItems/>
                 </viewController>
                 <viewController automaticallyAdjustsScrollViewInsets="NO" id="rim-6i-jmw">
