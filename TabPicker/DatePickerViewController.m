@@ -34,4 +34,26 @@
 }
 */
 
+- (IBAction)buttonPressed:(id)sender {
+    
+    
+    NSDate* dateSelect = [self.datePicker date];
+    
+    NSString* msg = [[NSString alloc] initWithFormat:
+                     @"你选择的日期是 %@", dateSelect];
+
+    // 显示一条提示消息
+    [
+         [
+          [UIAlertView alloc]
+             initWithTitle:@"你选择了日期"
+                 message:msg
+                 delegate:nil
+                 cancelButtonTitle:@"关闭"
+                 otherButtonTitles:nil]
+    show];
+}
+
+
+
 @end
