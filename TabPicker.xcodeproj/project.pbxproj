@@ -16,6 +16,8 @@
 		1CA7764A1A57E87A006748C8 /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CA776491A57E87A006748C8 /* TabBarController.xib */; };
 		1CA776551A57F19F006748C8 /* DatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA776531A57F19F006748C8 /* DatePickerViewController.m */; };
 		1CA776561A57F19F006748C8 /* DatePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CA776541A57F19F006748C8 /* DatePickerViewController.xib */; };
+		1CA776671A58022A006748C8 /* SingleComponentPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA776651A58022A006748C8 /* SingleComponentPickerViewController.m */; };
+		1CA776681A58022A006748C8 /* SingleComponentPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CA776661A58022A006748C8 /* SingleComponentPickerViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,9 @@
 		1CA776521A57F19F006748C8 /* DatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerViewController.h; sourceTree = "<group>"; };
 		1CA776531A57F19F006748C8 /* DatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerViewController.m; sourceTree = "<group>"; };
 		1CA776541A57F19F006748C8 /* DatePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePickerViewController.xib; sourceTree = "<group>"; };
+		1CA776641A58022A006748C8 /* SingleComponentPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleComponentPickerViewController.h; sourceTree = "<group>"; };
+		1CA776651A58022A006748C8 /* SingleComponentPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleComponentPickerViewController.m; sourceTree = "<group>"; };
+		1CA776661A58022A006748C8 /* SingleComponentPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SingleComponentPickerViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +102,9 @@
 				1CA776301A57E854006748C8 /* Images.xcassets */,
 				1CA776321A57E854006748C8 /* LaunchScreen.xib */,
 				1CA776231A57E854006748C8 /* Supporting Files */,
+				1CA776641A58022A006748C8 /* SingleComponentPickerViewController.h */,
+				1CA776651A58022A006748C8 /* SingleComponentPickerViewController.m */,
+				1CA776661A58022A006748C8 /* SingleComponentPickerViewController.xib */,
 			);
 			path = TabPicker;
 			sourceTree = "<group>";
@@ -210,6 +218,7 @@
 				1CA776561A57F19F006748C8 /* DatePickerViewController.xib in Resources */,
 				1CA776341A57E854006748C8 /* LaunchScreen.xib in Resources */,
 				1CA7764A1A57E87A006748C8 /* TabBarController.xib in Resources */,
+				1CA776681A58022A006748C8 /* SingleComponentPickerViewController.xib in Resources */,
 				1CA776311A57E854006748C8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -228,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CA776671A58022A006748C8 /* SingleComponentPickerViewController.m in Sources */,
 				1CA776551A57F19F006748C8 /* DatePickerViewController.m in Sources */,
 				1CA7762C1A57E854006748C8 /* ViewController.m in Sources */,
 				1CA776291A57E854006748C8 /* AppDelegate.m in Sources */,
@@ -414,6 +424,7 @@
 				1CA776451A57E855006748C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1CA776461A57E855006748C8 /* Build configuration list for PBXNativeTarget "TabPickerTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +433,7 @@
 				1CA776481A57E855006748C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
