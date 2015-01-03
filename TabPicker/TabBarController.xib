@@ -14,7 +14,7 @@
             <nil key="simulatedBottomBarMetrics"/>
             <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-            <tabBar key="tabBar" contentMode="scaleToFill" id="HaC-FE-qo8">
+            <tabBar key="tabBar" contentMode="scaleToFill" selectedItem="4fN-ys-0QI" id="HaC-FE-qo8">
                 <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -43,6 +43,18 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 2" id="rdh-V6-inq"/>
+                </viewController>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="zN2-Z8-zOr">
+                    <tabBarItem key="tabBarItem" title="Item" id="NRO-g2-eLo"/>
+                    <toolbarItems/>
+                </viewController>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="rim-6i-jmw">
+                    <tabBarItem key="tabBarItem" title="Item" id="idg-qU-kbh"/>
+                    <toolbarItems/>
+                </viewController>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="A1a-8z-V5g">
+                    <tabBarItem key="tabBarItem" title="Item" id="vYe-bQ-KAe"/>
+                    <toolbarItems/>
                 </viewController>
             </viewControllers>
             <point key="canvasLocation" x="381" y="431"/>
