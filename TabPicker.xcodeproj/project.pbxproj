@@ -99,12 +99,12 @@
 				1CA776521A57F19F006748C8 /* DatePickerViewController.h */,
 				1CA776531A57F19F006748C8 /* DatePickerViewController.m */,
 				1CA776541A57F19F006748C8 /* DatePickerViewController.xib */,
-				1CA776301A57E854006748C8 /* Images.xcassets */,
-				1CA776321A57E854006748C8 /* LaunchScreen.xib */,
-				1CA776231A57E854006748C8 /* Supporting Files */,
 				1CA776641A58022A006748C8 /* SingleComponentPickerViewController.h */,
 				1CA776651A58022A006748C8 /* SingleComponentPickerViewController.m */,
 				1CA776661A58022A006748C8 /* SingleComponentPickerViewController.xib */,
+				1CA776301A57E854006748C8 /* Images.xcassets */,
+				1CA776321A57E854006748C8 /* LaunchScreen.xib */,
+				1CA776231A57E854006748C8 /* Supporting Files */,
 			);
 			path = TabPicker;
 			sourceTree = "<group>";

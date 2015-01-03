@@ -10,4 +10,7 @@
 
 @interface SingleComponentPickerViewController : UIViewController
 
+
+@property (weak, nonatomic) IBOutlet UIPickerView *singlePicker;
+
 @end
