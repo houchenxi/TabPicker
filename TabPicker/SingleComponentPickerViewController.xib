@@ -6,7 +6,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SingleComponentPickerViewController">
             <connections>
-                <outlet property="singlePicker" destination="Y5p-hM-jLB" id="bAd-7y-CTc"/>
+                <outlet property="singlePicker" destination="Y5p-hM-jLB" id="WWE-UH-fcK"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -17,7 +17,20 @@
             <subviews>
                 <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y5p-hM-jLB">
                     <rect key="frame" x="0.0" y="34" width="320" height="162"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="ib7-qT-KHu"/>
+                        <outlet property="delegate" destination="-1" id="H7E-Z2-4b6"/>
+                    </connections>
                 </pickerView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A6W-5N-IJw">
+                    <rect key="frame" x="130" y="269" width="60" height="30"/>
+                    <state key="normal" title="选择学校">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonPressed:" destination="-1" eventType="touchUpInside" id="K1w-ka-Q49"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
