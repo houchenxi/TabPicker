@@ -16,7 +16,22 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    // 窗口大小调整
+    self.window = [ [UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    // 加载视图
+    [[NSBundle mainBundle] loadNibNamed:@"TabBarController" owner:self options:nil];
+    
+    // 关联根控制器
+    self.window.rootViewController = self.rootController;
+    
+    // 背景色
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    // 窗口按新的根控制器配置初始化
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

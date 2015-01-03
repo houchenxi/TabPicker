@@ -10,10 +10,10 @@
 		1CA776261A57E854006748C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA776251A57E854006748C8 /* main.m */; };
 		1CA776291A57E854006748C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA776281A57E854006748C8 /* AppDelegate.m */; };
 		1CA7762C1A57E854006748C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA7762B1A57E854006748C8 /* ViewController.m */; };
-		1CA7762F1A57E854006748C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CA7762D1A57E854006748C8 /* Main.storyboard */; };
 		1CA776311A57E854006748C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CA776301A57E854006748C8 /* Images.xcassets */; };
 		1CA776341A57E854006748C8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CA776321A57E854006748C8 /* LaunchScreen.xib */; };
 		1CA776401A57E854006748C8 /* TabPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA7763F1A57E854006748C8 /* TabPickerTests.m */; };
+		1CA7764A1A57E87A006748C8 /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CA776491A57E87A006748C8 /* TabBarController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +34,12 @@
 		1CA776281A57E854006748C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1CA7762A1A57E854006748C8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1CA7762B1A57E854006748C8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1CA7762E1A57E854006748C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1CA776301A57E854006748C8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1CA776331A57E854006748C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1CA776391A57E854006748C8 /* TabPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CA7763E1A57E854006748C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CA7763F1A57E854006748C8 /* TabPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabPickerTests.m; sourceTree = "<group>"; };
+		1CA776491A57E87A006748C8 /* TabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +81,11 @@
 		1CA776221A57E854006748C8 /* TabPicker */ = {
 			isa = PBXGroup;
 			children = (
+				1CA776491A57E87A006748C8 /* TabBarController.xib */,
 				1CA776271A57E854006748C8 /* AppDelegate.h */,
 				1CA776281A57E854006748C8 /* AppDelegate.m */,
 				1CA7762A1A57E854006748C8 /* ViewController.h */,
 				1CA7762B1A57E854006748C8 /* ViewController.m */,
-				1CA7762D1A57E854006748C8 /* Main.storyboard */,
 				1CA776301A57E854006748C8 /* Images.xcassets */,
 				1CA776321A57E854006748C8 /* LaunchScreen.xib */,
 				1CA776231A57E854006748C8 /* Supporting Files */,
@@ -199,8 +199,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CA7762F1A57E854006748C8 /* Main.storyboard in Resources */,
 				1CA776341A57E854006748C8 /* LaunchScreen.xib in Resources */,
+				1CA7764A1A57E87A006748C8 /* TabBarController.xib in Resources */,
 				1CA776311A57E854006748C8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,14 +244,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1CA7762D1A57E854006748C8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1CA7762E1A57E854006748C8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1CA776321A57E854006748C8 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
