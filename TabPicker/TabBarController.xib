@@ -20,7 +20,7 @@
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             </tabBar>
             <viewControllers>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="zN2-Z8-zOr">
+                <viewController nibName="DatePickerViewController" automaticallyAdjustsScrollViewInsets="NO" id="zN2-Z8-zOr">
                     <tabBarItem key="tabBarItem" title="Item" id="NRO-g2-eLo"/>
                     <toolbarItems/>
                 </viewController>
